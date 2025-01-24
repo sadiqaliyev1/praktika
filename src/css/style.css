@@ -1,0 +1,89 @@
+.container{
+    margin: 0 auto;
+    
+    /* background-color: red; */
+}
+
+.Pioneer__header{
+    height: 113px;
+    margin-top: 32px;
+}
+.email{
+    font-family: Source Sans 3;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28.48px;
+    text-align: right;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+}
+.number{
+    font-family: Source Sans 3;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28.48px;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+}
+.number_email{
+    /* margin-right: 100px; */
+}
+
+.for__questions__suggestions{
+    gap: 40px;
+}
+hr {
+    border: 2px solid #888888; 
+  }
+
+/* .for__img{
+    justify-content: space-between;
+} */
+
+.telefon{
+    font-family: Source Sans 3;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+}
+
+.Russian__Power{
+    /* width: 1180px; */
+    height: 616px;
+    padding-top: 80px;
+}
+
+.Russian__Power__header{
+    width: 580px;
+    font-family: Source Sans 3;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+}
+
+.Russian__Power__text{
+    font-family: Source Sans 3;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    width: 379px;
+    margin-top: 21px;
+    margin-left: 20px;
+}
+

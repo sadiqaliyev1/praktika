@@ -294,18 +294,127 @@ hr {
 .pioner__end{
     color: white;
     text-align: center;
-    margin-top: 60px;
+    padding-top: 60px;
 }
 
 
-@media  (max-width: 430px) {
+@media  (max-width: 768px) {
 
-    .text-end{
-        /* margin-right: 200px; */
+
+
+    .nav{
+        display: block;
     }
 
-    .questions__and__suggestions{
-            /* width: 220px; */
+    .Russian__Power__header{
+        font-size: 40px;
     }
+
+    .russian__power__img{
+        width: 767px;
+    }
+    .company__text{
+        flex-direction: column;
+    }
+    .company__text1{
+        margin-bottom: 20px;
+    }
+    .romain__arandal__img{
+        flex-direction: column;
+    }
+    .instrument{
+        flex-direction: column;
+    }
+    .Representative__offices__header{
+        font-size: 39px;
+    }
+    .map__img{
+        width: 750px;
+    }
+    .pioner__news{
+        flex-direction: column;
+    }
+    .footer__header__link{
+        flex-direction: column  ;
+    }
+    .footer{
+       justify-items: center;
+    }
+    .footer__img{
+        text-align: center;
+    }
+  
+    .pioner__footer{
+    height: 461px;
+    
+    }
+    
 }
 
+@media  (max-width: 430px){
+    .russian__power__img{
+        width: 430px                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ;
+    }
+    .questions__and__suggestions, .email{
+    margin-left: 5px;
+    font-size: 13px;
+    }
+    .number{
+        font-size: 13px;
+        width: 120px;
+    }
+    .nav{
+        flex-direction: column;
+    }
+    .Russian__Power__header{
+    font-size: 40px;
+    }
+    .Russian__Power__text{
+        line-height: 30px;
+    }
+    .company__text1{
+        width: 430px;
+    }
+    .company__text2{
+        width: 430px;
+        
+    }
+    .company__text3{
+        width: 430px;
+        margin-bottom: 60px;
+    }
+    .aurelien-romain-img{
+        width: 430px;
+    }
+    .carlos-arandal-img{
+        width: 430px;
+
+    }
+  .alarm__sensors__controllers{
+    flex-direction: column;
+  }
+
+  .Pressure__corrector__Manometers{
+    flex-direction: column;
+  }
+  .Representative__offices__header{
+    font-size: 30px;
+  }
+  .map__img{
+    width: 430px;
+  }
+  .News{
+    font-size: 30px;
+  }
+    .pioner__footer{
+    height: 501px;
+    
+    }
+    .pioner__footer{
+        width: 460px;
+    }
+    .footer{
+        margin-left: 10px;
+    }
+    
+}

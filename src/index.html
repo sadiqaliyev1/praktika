@@ -34,7 +34,7 @@
     </header>
     <nav>
         <div class="container">
-            <div class="d-flex justify-content-between">
+            <div class="d-flex justify-content-between nav">
                 <div>Главная</div>
                 <div>О предприятии</div>
                 <div>Новости</div>
@@ -65,13 +65,13 @@
         
 
         <div class="d-flex company__text gap-3">
-            <div>За 20 лет развития в структуре завода сформирован мощный производственный потенциал, научно-технический центр, испытательная лаборатория, современная база, учебный центр и широкая сеть региональных и международных представительств в Российской Федерации, Республике Беларусь, Узбекистане и Казахстане.</div>
-            <div>В номенклатуре выпускаемой НПП «ПИОНЕР» продукции найдется все, что необходимо для успешного решения задачи автоматизации технологических процессов на любом предприятии. Все средства измерения производства «ПИОНЕР» внесены в Государственный реестр СИ и имеют необходимые разрешительные документы.</div>
+                <div class="company__text1">За 20 лет развития в структуре завода сформирован мощный производственный потенциал, научно-технический центр, испытательная лаборатория, современная база, учебный центр и широкая сеть региональных и международных представительств в Российской Федерации, Республике Беларусь, Узбекистане и Казахстане.</div>
+                <div class="company__text2">В номенклатуре выпускаемой НПП «ПИОНЕР» продукции найдется все, что необходимо для успешного решения задачи автоматизации технологических процессов на любом предприятии. Все средства измерения производства «ПИОНЕР» внесены в Государственный реестр СИ и имеют необходимые разрешительные документы.</div>
         </div>
         <div class="company__text3">Ежегодно НПП «ПИОНЕР» реализует несколько проектов по модернизации серийных и разработке новых приборов, призванные в наибольшей степени удовлетворять возрастающие требования наших заказчиков.</div>
-            <div class="d-flex gap-4 mt-5">
-                <div><img src="./public/aurelien-romain.svg" alt=""></div>
-                <div><img src="./public/carlos-arandal.svg" alt=""></div>
+            <div class="d-flex gap-4 mt-5 romain__arandal__img">
+                <div><img class="aurelien-romain-img" src="./public/aurelien-romain.svg" alt=""></div>
+                <div><img class="carlos-arandal-img" src="./public/carlos-arandal.svg" alt=""></div>
             </div>
     </div>
     </section>
@@ -79,8 +79,9 @@
     <section class="Products__section">
         <div class="container">
             <div class="Products__header    ">Продукция</div>
-        <div class="">
-            <div  class="d-flex gap-4">
+        <div class="instrument">
+            <div   class="d-flex gap-4 alarm__sensors__controllers">
+            <!-- <div> -->
                 <div class="instrument-panel">
                     <div><img src="./public/Level alarm.svg" alt=""></div>
                     <div class="indicator__text">Сигнализатор уровня</div>
@@ -94,7 +95,7 @@
                     <div class="sensors__text">Датчики давления</div>
                     <div class="Read__more">Подробнее ></div>
                 </div>
-
+            <!-- </div> -->
 
                 
                 <div class="instrument-panel">
@@ -104,7 +105,7 @@
                 </div>
             </div>
 
-            <div class="d-flex gap-4 mt-4 ">
+            <div class="d-flex gap-4 mt-4 Pressure__corrector__Manometers">
                 <div class="instrument-panel">
                     <div><img src="./public/Pressure calibrator.svg" alt=""></div>
                     <div class="calibrator__text">Калибратор давления</div>
@@ -131,14 +132,14 @@
     <section class="Representative__offices">
         <div class="container">
             <div class="Representative__offices__header">Представительства</div>
-            <div><img src="./public/map.svg" alt=""></div>
+            <div><img class="map__img" src="./public/map.svg" alt=""></div>
         </div>
     </section>
 
     <section class="News__section">
         <div class="container">
             <div class="News">Новости</div>
-        <div class="d-flex gap-3">
+        <div class="d-flex gap-3 calibrator pioner__news">
             <div class="news_pioner">
                 <div class="pioner">
                     <div><img src="./public/pionerrrone.svg" alt=""></div>
@@ -175,11 +176,11 @@
         </div>
     </section>
 
-    <footer class="pioner__footer">
+    <footer      class="pioner__footer">
         <div class="container">
 
-        <div class="d-flex justify-content-between">
-            <div  class="footer"><img src="./public/pioner__footer.svg" alt=""></div>
+        <div class="d-flex justify-content-between footer__header__link">
+            <div  class="footer footer__img"><img src="./public/pioner__footer.svg" alt=""></div>
 
             <div class="footer">
                 <div class="d-flex gap-5">

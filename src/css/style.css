@@ -1,11 +1,11 @@
 .container{
     margin: 0 auto;
-    
+    max-width: 1180px !important;   
     /* background-color: red; */
 }
 
 .Pioneer__header{
-    height: 113px;
+    /* height: 113px; */
     margin-top: 32px;
 }
 .email{
@@ -58,7 +58,7 @@ hr {
 
 .Russian__Power{
     /* width: 1180px; */
-    height: 616px;
+    /* height: 616px; */
     padding-top: 80px;
 }
 
@@ -85,5 +85,227 @@ hr {
     width: 379px;
     margin-top: 21px;
     margin-left: 20px;
+}
+
+.russian__power__img{
+    margin-top: 32px;
+}
+
+.company__header{
+    font-family: Source Sans 3;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #333333;
+}
+/* ///// */
+.About__company{
+    margin-top: 80px;
+}
+
+.company__text{
+    margin-top: 32px;
+}
+
+.company__text3{
+    margin-top: 22px;
+    width: 560px;
+    height: 66px;  
+}
+
+.Products__header{  
+    font-family: Source Sans 3;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-bottom: 32px;
+}
+
+.Products__section{
+    margin-top: 80px;
+}
+
+
+
+.instrument-panel{
+    width: 390px;
+    height: 435px;
+    padding-left: 24px;
+    padding-top: 32px;
+    background-color: #F5F5F5;
+}
+
+
+
+/* //// */
+.indicator__text{
+    font-family: Source Sans 3;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 102px;
+}
+.sensors__text{
+    font-family: Source Sans 3;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 177px;
+    
+}
+.controllers__text{
+    font-family: Source Sans 3;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 132px;
+}
+
+
+.calibrator__text{
+    font-family: Source Sans 3;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 152px;
+    
+}
+.corrector__text{
+    font-family: Source Sans 3;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 160px;
+}
+.Manometers__text{
+    font-family: Source Sans 3;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 33.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    margin-top: 163px;
+}
+
+.Read__more{
+    margin-top: 12px;
+    color: #607CE6;
+
+}
+.Representative__offices{
+    margin-top: 80px;
+}
+
+.Representative__offices__header{
+    font-family: Source Sans 3;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+}
+
+.map{
+    margin-top: 32px;
+}
+.News__section{
+    margin-top: 80px;
+
+}
+.news_pioner{
+    margin-top: 32px;
+}
+
+.News{
+    font-family: Source Sans 3;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    
+}
+.pioner{
+    width: 380px;
+    height: 478px;
+    background-color: #F5F5F5;    
+}
+
+.pioner{
+
+}
+
+.pioner__news__text{
+    margin-left: 16px;
+    margin-top: 16px;
+    width: 320px;
+}
+
+
+.read__history{
+   /* width: 300px; */
+   margin-left: 16px;
+   margin-top: 81px;
+   margin-right: 16px
+}
+
+.pioner__footer{
+    background-color: #333333;
+    margin-top: 80px;
+    height: 361px;
+}
+/* /// */
+.pioner__footer__img{
+
+}
+
+.footer{
+    padding-top: 56px;
+}
+
+.footer__link{
+    line-height: 40px;
+}
+.pioner__end{
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+}
+
+
+@media  (max-width: 430px) {
+
+    .text-end{
+        /* margin-right: 200px; */
+    }
+
+    .questions__and__suggestions{
+            /* width: 220px; */
+    }
 }
 
